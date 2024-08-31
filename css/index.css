@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+}
+
+.element,
+html {
+    scrollbar-width: none
+}
+
+html::-webkit-scrollbar,
+.element::-webkit-scrollbar {
+    display: none
+}
+
+/* body {
+    font-family: "Roboto", sans-serif;
+} */
+
+.navbar {
+    background-color: #11101D;
+}
+
+.logo img {
+    height: 40px;
+}
+
+#home {
+    background-color: #11101D;
+}
+
+#home .container {
+    /* height: 525px; */
+    height: 100vh;
+}
+
+#home .container a {
+    padding: 20px 50px;
+    background-color: #9B59B6;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+#home .container a:hover {
+    background-color: #76438a;
+}
+
+#about .card-body {
+    border: 1.5px solid #11101D;
+    cursor: default;
+    transition: all 0.2s ease;
+}
+
+#about .card-body:hover {
+    background-color: #11101D;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#profile {
+    background-color: #11101D;
+}
+
+#profile .card {
+    background-color: #11101D;
+    border: 1.5px solid #fff;
+    transition: all 0.2s ease;
+}
+
+/* #profile .card:hover {
+    background-color: #fff;
+    color: #111;
+} */
+
+#profile .card img {
+    height: 180px;
+    width: 180px;
+}
+
+#profile .card img:hover{
+    filter: brightness(1.5);
+    transition: all 0.2s ease;
+}
+
+#profile .btn {
+    background-color: #fff;
+    transition: all 0.2s ease;
+}
+
+#profile .btn:hover {
+    background-color: #11101D;
+    color: #fff;
+}
+
+#profile .skills{
+    font-size: 109px;
+    background-color: #fff;
+    margin: 2px;
+    border-radius: 5px;
+    color: #111;
+}
+
+#profile .skills:hover{
+    background-color: #11101D;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+section {
+    padding-top: 5rem;
+}
